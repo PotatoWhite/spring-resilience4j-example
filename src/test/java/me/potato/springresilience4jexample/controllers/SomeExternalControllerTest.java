@@ -21,7 +21,7 @@ class SomeExternalControllerTest {
 			.bodyToMono(Some.class)
 			.block();
 
-		Assertions.assertTrue(response.getName().equals("당근"));
+		Assertions.assertTrue(response.getName().equals("Error 감자"));
 	}
 
 }
